@@ -3,27 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B7AC2EA26C211CE006DE142 /* Response+HandyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B7AC2E926C211CE006DE142 /* Response+HandyJSON.swift */; };
 		5BE6430226C11C99007D614A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6430126C11C99007D614A /* AppDelegate.swift */; };
-		5BE6430426C11C99007D614A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6430326C11C99007D614A /* SceneDelegate.swift */; };
 		5BE6430626C11C99007D614A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6430526C11C99007D614A /* ViewController.swift */; };
 		5BE6430926C11C99007D614A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE6430726C11C99007D614A /* Main.storyboard */; };
 		5BE6430B26C11C9B007D614A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE6430A26C11C9B007D614A /* Assets.xcassets */; };
 		5BE6430E26C11C9B007D614A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE6430C26C11C9B007D614A /* LaunchScreen.storyboard */; };
+		5BE6433426C12125007D614A /* APIServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6433326C12125007D614A /* APIServer.swift */; };
+		5BE6433826C1218A007D614A /* APIConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6433726C1218A007D614A /* APIConfig.swift */; };
+		5BE6433B26C121A2007D614A /* APIUploadConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6433A26C121A2007D614A /* APIUploadConfig.swift */; };
+		5BE6433E26C1326C007D614A /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6433D26C1326C007D614A /* APIModel.swift */; };
+		5BE6434126C1327C007D614A /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE6434026C1327C007D614A /* HTTPClient.swift */; };
+		75D19CA2A70395159CC53A45 /* Pods_RVNetWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E55177A09E2ED31C925DFF81 /* Pods_RVNetWork.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5B7AC2E926C211CE006DE142 /* Response+HandyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Response+HandyJSON.swift"; sourceTree = "<group>"; };
 		5BE642FE26C11C99007D614A /* RVNetWork.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RVNetWork.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE6430126C11C99007D614A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BE6430326C11C99007D614A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5BE6430526C11C99007D614A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5BE6430826C11C99007D614A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BE6430A26C11C9B007D614A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE6430D26C11C9B007D614A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BE6430F26C11C9B007D614A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE6433326C12125007D614A /* APIServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServer.swift; sourceTree = "<group>"; };
+		5BE6433726C1218A007D614A /* APIConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConfig.swift; sourceTree = "<group>"; };
+		5BE6433A26C121A2007D614A /* APIUploadConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIUploadConfig.swift; sourceTree = "<group>"; };
+		5BE6433D26C1326C007D614A /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		5BE6434026C1327C007D614A /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		633060329812F1B4B48C5FD9 /* Pods-RVNetWork.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RVNetWork.debug.xcconfig"; path = "Target Support Files/Pods-RVNetWork/Pods-RVNetWork.debug.xcconfig"; sourceTree = "<group>"; };
+		E55177A09E2ED31C925DFF81 /* Pods_RVNetWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RVNetWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4F8685BDBC7C10328F9A4E7 /* Pods-RVNetWork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RVNetWork.release.xcconfig"; path = "Target Support Files/Pods-RVNetWork/Pods-RVNetWork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D19CA2A70395159CC53A45 /* Pods_RVNetWork.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +57,8 @@
 			children = (
 				5BE6430026C11C99007D614A /* RVNetWork */,
 				5BE642FF26C11C99007D614A /* Products */,
+				87FEE16C733DDC0A56B1F62F /* Pods */,
+				5E08DFA3DB32E597F2320EE2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,8 +73,8 @@
 		5BE6430026C11C99007D614A /* RVNetWork */ = {
 			isa = PBXGroup;
 			children = (
+				5BE6433126C120F8007D614A /* NetWork */,
 				5BE6430126C11C99007D614A /* AppDelegate.swift */,
-				5BE6430326C11C99007D614A /* SceneDelegate.swift */,
 				5BE6430526C11C99007D614A /* ViewController.swift */,
 				5BE6430726C11C99007D614A /* Main.storyboard */,
 				5BE6430A26C11C9B007D614A /* Assets.xcassets */,
@@ -67,6 +84,44 @@
 			path = RVNetWork;
 			sourceTree = "<group>";
 		};
+		5BE6433126C120F8007D614A /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				5BE6433226C1210D007D614A /* Base */,
+				5BE6433D26C1326C007D614A /* APIModel.swift */,
+				5BE6434026C1327C007D614A /* HTTPClient.swift */,
+				5B7AC2E926C211CE006DE142 /* Response+HandyJSON.swift */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		5BE6433226C1210D007D614A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				5BE6433326C12125007D614A /* APIServer.swift */,
+				5BE6433726C1218A007D614A /* APIConfig.swift */,
+				5BE6433A26C121A2007D614A /* APIUploadConfig.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		5E08DFA3DB32E597F2320EE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E55177A09E2ED31C925DFF81 /* Pods_RVNetWork.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		87FEE16C733DDC0A56B1F62F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				633060329812F1B4B48C5FD9 /* Pods-RVNetWork.debug.xcconfig */,
+				F4F8685BDBC7C10328F9A4E7 /* Pods-RVNetWork.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BE6431226C11C9B007D614A /* Build configuration list for PBXNativeTarget "RVNetWork" */;
 			buildPhases = (
+				28EBCF120ECD992A10356AA3 /* [CP] Check Pods Manifest.lock */,
 				5BE642FA26C11C99007D614A /* Sources */,
 				5BE642FB26C11C99007D614A /* Frameworks */,
 				5BE642FC26C11C99007D614A /* Resources */,
+				EF521E3C57B5C10974848013 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +189,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		28EBCF120ECD992A10356AA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RVNetWork-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF521E3C57B5C10974848013 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RVNetWork/Pods-RVNetWork-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RVNetWork/Pods-RVNetWork-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RVNetWork/Pods-RVNetWork-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BE642FA26C11C99007D614A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,7 +238,12 @@
 			files = (
 				5BE6430626C11C99007D614A /* ViewController.swift in Sources */,
 				5BE6430226C11C99007D614A /* AppDelegate.swift in Sources */,
-				5BE6430426C11C99007D614A /* SceneDelegate.swift in Sources */,
+				5BE6433826C1218A007D614A /* APIConfig.swift in Sources */,
+				5B7AC2EA26C211CE006DE142 /* Response+HandyJSON.swift in Sources */,
+				5BE6434126C1327C007D614A /* HTTPClient.swift in Sources */,
+				5BE6433B26C121A2007D614A /* APIUploadConfig.swift in Sources */,
+				5BE6433E26C1326C007D614A /* APIModel.swift in Sources */,
+				5BE6433426C12125007D614A /* APIServer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,17 +387,18 @@
 		};
 		5BE6431326C11C9B007D614A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633060329812F1B4B48C5FD9 /* Pods-RVNetWork.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7K7AAZY6LM;
+				DEVELOPMENT_TEAM = 9SJ3X49YY2;
 				INFOPLIST_FILE = RVNetWork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jintong.RVNetWork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jintong.RVNetWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -302,17 +407,18 @@
 		};
 		5BE6431426C11C9B007D614A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4F8685BDBC7C10328F9A4E7 /* Pods-RVNetWork.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 7K7AAZY6LM;
+				DEVELOPMENT_TEAM = 9SJ3X49YY2;
 				INFOPLIST_FILE = RVNetWork/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = jintong.RVNetWork;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jintong.RVNetWork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
